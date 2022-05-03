@@ -1,21 +1,12 @@
-What is Alabaster?
-==================
 
-Alabaster is a visually (c)lean, responsive, configurable theme for the `Sphinx
-<http://sphinx-doc.org>`_ documentation system. It is Python 2+3 compatible.
+PHOTON Sphinx theme
+===================
 
-It began as a third-party theme, and is still maintained separately, but as of
-Sphinx 1.3, Alabaster is an install-time dependency of Sphinx and is selected
-as the default theme.
+The PHOTON Sphinx Theme is a translation of the PHOTON theme designed for Grav.
 
-Live examples of this theme can be seen on `this project's own website
-<http://alabaster.readthedocs.io>`_, `paramiko.org <http://paramiko.org>`_,
-`fabfile.org <http://fabfile.org>`_ and `pyinvoke.org <http://pyinvoke.org>`_.
+I will be porting over the Twig templates to Jinja (very similar).
 
-For more documentation, please see http://alabaster.readthedocs.io. For a
-roadmap, see the maintainer's `roadmap page
-<http://bitprophet.org/projects#roadmap>`_.
+Beginning with the Alabaster theme as a base.
 
-.. note::
-    You can install the development version via ``pip install -e
-    git+https://github.com/bitprophet/alabaster/#egg=alabaster``.
+
+
