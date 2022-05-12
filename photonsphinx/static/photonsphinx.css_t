@@ -67,7 +67,6 @@ body {
     padding: 0;
 }
 
-
 div.document {
     width: {{ theme_page_width }};
     margin: 30px auto 0 auto;
@@ -372,6 +371,16 @@ div.seealso {
 
 div.topic {
     background-color: {{ theme_topic_bg }};
+    float: right;
+    margin-left: 1em;
+    padding: .5em;
+    border: none;
+    font-size: .8em;
+}
+
+p.topic-title {
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 p.admonition-title {
