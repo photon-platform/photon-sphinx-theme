@@ -15,13 +15,14 @@
 <p class="blurb">{{ theme_description }}</p>
 {% endif %}
 
-{% if theme_github_user and theme_github_repo %}
-{% if theme_github_button|lower == 'true' %}
+{% if theme_github_user %}
+<iframe src="https://ghbtns.com/github-btn.html?user={{ theme_github_user }}&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="230" height="30" title="GitHub"></iframe>
+{% endif %}
+{% if theme_github_repo and theme_github_button|lower == 'true' %}
 <p>
 <iframe src="https://ghbtns.com/github-btn.html?user={{ theme_github_user }}&repo={{ theme_github_repo }}&type={{ theme_github_type }}&count={{ theme_github_count }}&size=large&v=2"
   allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
 </p>
-{% endif %}
 {% endif %}
 
 {% if theme_travis_button|lower != 'false' %}
