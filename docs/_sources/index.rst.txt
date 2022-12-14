@@ -1,4 +1,4 @@
-PHOTON platform • ablog
+PHOTON platform • theme
 =======================
 
 .. include:: README.rst

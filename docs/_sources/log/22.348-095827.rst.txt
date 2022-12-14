@@ -1,0 +1,8 @@
+Welcome to the .photon project
+==============================
+
+.. post::  22.348-095827
+   :tags: 
+   :category: STATUS
+
+first entry in the log
