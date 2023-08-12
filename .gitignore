@@ -5,3 +5,5 @@ tags
 *.egg-info/
 *.egg-info
 *.py[cod]
+build
+dist
